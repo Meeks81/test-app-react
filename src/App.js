@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <span>{tg.initDataUnsafe?.user?.username}</span>
+      <span style={{color: "#fff"}}>{tg.initDataUnsafe?.user?.username}</span>
       <button onClick={onClose}>Закрыть</button>
     </div>
   );
