@@ -11,6 +11,8 @@ function App() {
     tg.close();
   };
 
+  tg.MainButton.show();
+
   return (
     <div className="App">
       <span>{tg.initDataUnsafe?.user?.username}</span>
